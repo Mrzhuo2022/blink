@@ -18,7 +18,7 @@
 ## 📸 屏幕截图
 
 <div align="center">
-<img src="screenshots/main-interface.png" alt="主界面" width="600"/>
+<img src="screenshots/main-interface.png" alt="主界面" width="200"/>
 <br/>
 <em>主界面 - 简洁现代的计时器界面</em>
 </div>
