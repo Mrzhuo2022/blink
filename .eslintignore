@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+src-tauri/target/
+
+# Config files
+*.config.js
+*.config.ts
+vite.config.ts
+tailwind.config.js
+postcss.config.js
+
+# Generated files
+.tauri/
+*.d.ts
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <!-- 渐变定义 -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366F1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="32" cy="32" r="30" fill="url(#bgGradient)"/>
+  
+  <!-- 眼睛容器 -->
+  <g transform="translate(32, 32)">
+    <!-- 眼睛底部（白色） -->
+    <circle cx="0" cy="0" r="12" fill="white"/>
+    
+    <!-- 眼珠 -->
+    <circle cx="0" cy="0" r="6" fill="#1F2937"/>
+    
+    <!-- 高光点 -->
+    <circle cx="-2" cy="-2" r="2" fill="white" opacity="0.9"/>
+  </g>
+  
+  <!-- 装饰性边框 -->
+  <circle cx="32" cy="32" r="29" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+</svg>

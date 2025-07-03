@@ -1,0 +1,11 @@
+{
+  "$schema": "../gen/schemas/capabilities.json",
+  "identifier": "main-capability",
+  "description": "Main application capabilities",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "notification:default",
+    "shell:allow-open"
+  ]
+}

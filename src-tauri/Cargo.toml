@@ -1,0 +1,26 @@
+[package]
+name = "blink"
+version = "1.0.0"
+description = "A modern time monitoring and break reminder application"
+authors = [""]
+license = ""
+repository = ""
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2.0", features = [] }
+
+[dependencies]
+tauri = { version = "2.0", features = ["devtools", "tray-icon"] }
+tauri-plugin-notification = "2.0"
+tauri-plugin-shell = "2.0"
+tauri-plugin-autostart = "2.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[target."cfg(not(any(target_os = \"android\", target_os = \"ios\")))".dependencies]
+tauri-plugin-updater = "2.0"
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
