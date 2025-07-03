@@ -25,8 +25,6 @@
 
 <div align="center">
 <img src="screenshots/fullscreen-break-1.png" alt="全屏小憩" width="600"/>
-<br/>
-<em>全屏小憩界面</em>
 <img src="screenshots/fullscreen-break-2.png" alt="全屏休息" width="600"/>
 <br/>
 <em>全屏休息界面 - 强制休息保护眼睛健康</em>
