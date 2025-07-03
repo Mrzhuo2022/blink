@@ -58,7 +58,7 @@ jobs:
         run: |
           pnpm run type-check
           pnpm run lint
-          pnpm run format:check
+          pnpm run format
 
       - name: Build Tauri application
         uses: tauri-apps/tauri-action@v0

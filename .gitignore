@@ -100,7 +100,6 @@ dist
 
 # Gatsby files
 .cache/
-public
 
 # Storybook build outputs
 .out
@@ -125,8 +124,3 @@ temp/
 # Generated files
 *.generated.*
 
-# Screenshot placeholders (until real screenshots are added)
-screenshots/*.png
-screenshots/*.jpg
-screenshots/*.jpeg
-!screenshots/README.md
